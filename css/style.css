@@ -31,6 +31,7 @@ body {
   margin: auto;
   padding-top: 17px;
   font-size: 12px;
+  color: #0059b3;
 }
 .mondo-testa {
   float: left;
@@ -87,16 +88,36 @@ body {
   color: white;
 }
 /*fine parte alta della testa*/
+hr {
+  width: 100%;
+  height: 1px;
+  color: #0059b3;
+}
 /*inizio parte bassa della testa*/
 .testa-due {
   width: 90%;
   margin: auto;
   height: 200px;
-  background: white;
+}
+.logo {
+  float: left;
 }
 .logohub {
   width: 85px;
   height: 35px;
+  margin: 7px 0 7px;
 }
-
+.menu-due {
+  float: right;
+}
+.menu-due li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 18px;
+}
+.menu-due li a {
+  text-decoration: none;
+  color: #0059b3;
+  margin-right: 6px;
+}
 /*fine testa */
