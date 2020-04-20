@@ -1,0 +1,102 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*fine reset*/
+/*inizio regole generali */
+body {
+  font-family: 'Montserrat', verdana;
+}
+.container {
+  width: 1280px;
+  margin:auto;
+}
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*fine regole generali */
+/*inizio testa */
+.testa {
+  height: 50px;
+  background: #e6f9ff;
+  margin: auto;
+  position: relative;
+}
+.lingua {
+  width: 90%;
+  margin: auto;
+  padding-top: 17px;
+  font-size: 12px;
+}
+.mondo-testa {
+  float: left;
+  margin-right: 4px;
+}
+.down-testa {
+  position: absolute;
+  left: 129px;
+  bottom: 17px;
+}
+.lingua-uno {
+  border-right: 2px solid black;
+  width: 8%;
+}
+.lingua-due {
+  position: absolute;
+  left: 13%;
+  top: 36%;
+  font-size: 12px;
+}
+.testa-destra li {
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 3px;
+}
+.testa-destra {
+  right: 0;
+  margin-top: -12%;
+}
+.testa-destra li a {
+  text-decoration: none;
+}
+.lente {
+  color: #33cfff;
+  margin-right: 10px;
+}
+.login {
+  background: white;
+  color: #ff8533;
+  padding: 5px;
+  border: 2px solid #ff8533;
+  border-radius: 3px;
+  margin-top: 3px;
+  margin-left: 8px;
+}
+.gethub {
+  background: #ff8533;
+  padding: 5px;
+  border: 2px solid #ff8533;
+  border-radius: 3px;
+  margin-top: 3px;
+  margin-left: 8px;
+  color: white;
+}
+/*fine parte alta della testa*/
+/*inizio parte bassa della testa*/
+.testa-due {
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  background: white;
+}
+.logohub {
+  width: 85px;
+  height: 35px;
+}
+
+/*fine testa */
