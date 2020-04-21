@@ -24,7 +24,8 @@ body {
 .testa {
   height: 50px;
   background: #e6f9ff;
-  margin: auto;
+  margin-left: 0%;
+  margin-right: 0%;
   position: relative;
 }
 .lingua {
@@ -40,7 +41,7 @@ body {
 }
 .down-testa {
   position: absolute;
-  left: 129px;
+  left: 15%;
   bottom: 17px;
 }
 .lingua-uno {
@@ -49,7 +50,7 @@ body {
 }
 .lingua-due {
   position: absolute;
-  left: 13%;
+  left: 19%;
   top: 36%;
   font-size: 12px;
 }
@@ -189,3 +190,125 @@ hr {
   border-bottom: 2px solid #0059b3;
 }
 /*fine sottotitolo */
+/*inizio main */
+/*inizio integration */
+.corpo-centrale {
+  width: 100%;
+  background: red;
+}
+.integration {
+  width: 90%;
+  background-color: #c1f0f0;
+  padding-bottom: 25px;
+}
+.integration img {
+  width: 20%;
+  height: 55%;
+  margin: 2% 40% 2%;
+}
+.integration h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #003380;
+}
+.integration p {
+  text-align: center;
+  font-size: 14px;
+}
+/*fine integration */
+/*inizio crm */
+.crm {
+  width: 90%;
+  height: 200px;
+  background: white;
+}
+.immagine-crm {
+  background-color: white;
+  width: 30%;
+  float: left;
+}
+.crm img {
+  width: 112px;
+  height: 112px;
+  margin-top: 2%;
+  margin-left: 30%;
+}
+.crm li a {
+  text-decoration: none;
+  color: white;
+}
+.crm li {
+  list-style-type: none;
+}
+.crmbot {
+  padding: 12px;
+  font-size: 20px;
+  margin-left: 90px;
+  color: white;
+  background-color: #ff8533;
+  border: 1px solid #ff8533;
+  border-radius: 5px;
+}
+.testo-crm {
+  width: 60%;
+  float: right;
+  background: white;
+  margin-top: 2%;
+  position: relative;
+}
+.testo-crm p {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.testo-crm h3 , h4 {
+  color: #003380;
+}
+.testo-crm hr {
+  width: 65%;
+  color: #003380;
+  right: 5%;
+  top: 90px;
+  position: absolute;
+}
+.testo-crm li {
+  display: inline-block;
+}
+.testo-crm li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #003380;
+}
+.testo-crm i {
+  color: orange;
+}
+/*fine crm */
+/*inizio marketing */
+.marketing {
+  height: 300px;
+  width: 25%;
+  background: yellow;
+  margin-top: 30px;
+  float: left;
+}
+/*fine marketing */
+/*inizio sales */
+.sales {
+  height: 300px;
+  width: 25%;
+  background: purple;
+  margin-top: 30px;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*fine sales */
+/*inizio service */
+.service {
+  height: 300px;
+  width: 25%;
+  float: left;
+  background-color: green;
+  margin-top: 30px;
+}
+/*fine service */
