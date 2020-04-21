@@ -8,9 +8,11 @@
 /*inizio regole generali */
 body {
   font-family: 'Montserrat', verdana;
+  font-size: 13px;
+  line-height: 1.4;
 }
 .container {
-  width: 1280px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,47 +24,48 @@ body {
 /*fine regole generali */
 /*inizio testa */
 .testa {
-  height: 50px;
+  height: 70px;
   background: #e6f9ff;
-  margin-left: 0%;
-  margin-right: 0%;
-  position: relative;
 }
-.lingua {
-  width: 90%;
-  margin: auto;
+.testa-left {
+  float: left;
   padding-top: 17px;
   font-size: 12px;
   color: #0059b3;
+  width: 30%;
 }
-.mondo-testa {
-  float: left;
-  margin-right: 4px;
-}
-.down-testa {
-  position: absolute;
-  left: 15%;
-  bottom: 17px;
-}
+
 .lingua-uno {
   border-right: 2px solid black;
-  width: 8%;
+  position: relative;
+  float: left;
+  padding-right: 10px;
+}
+.lingua-uno > div {
+  display: inline-block;
+}
+.mondo-testa {
+  margin-right: 4px;
+  margin-top: 10px;
+}
+.lingua-due p {
+  padding-left: 7px;
 }
 .lingua-due {
-  position: absolute;
-  left: 19%;
-  top: 36%;
+  float: left;
   font-size: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 .testa-destra li {
   float: right;
   list-style-type: none;
   display: inline-block;
-  margin-top: 3px;
+  margin-top: 21px;
 }
 .testa-destra {
-  right: 5%;
-  margin-top: -12%;
+  right: 0
+  top: 10%;
 }
 .testa-destra li a {
   text-decoration: none;
@@ -77,7 +80,7 @@ body {
   padding: 5px;
   border: 2px solid #ff8533;
   border-radius: 3px;
-  margin-top: 3px;
+  margin-top: 10px;
   margin-left: 8px;
 }
 .gethub {
@@ -85,7 +88,7 @@ body {
   padding: 5px;
   border: 2px solid #ff8533;
   border-radius: 3px;
-  margin-top: 3px;
+  margin-top: 10px;
   margin-left: 8px;
   color: white;
 }
@@ -97,7 +100,7 @@ hr {
 }
 /*inizio parte bassa della testa*/
 .testa-due {
-  width: 90%;
+  width: 100%;
   margin: auto;
   height: 40px;
 }
@@ -136,7 +139,7 @@ hr {
   position: relative;
 }
 .testo-titolo p {
-  font-size: 13px;
+
   color: #003380;
   padding-top: 25px;
   top: 150px;
@@ -213,7 +216,7 @@ hr {
 }
 .integration p {
   text-align: center;
-  font-size: 14px;
+
 }
 /*fine integration */
 /*inizio crm */
@@ -257,7 +260,7 @@ hr {
   position: relative;
 }
 .testo-crm p {
-  font-size: 15px;
+
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -410,3 +413,11 @@ hr {
 }
 /*fine service */
 /*fine trecol */
+/*inizio numeri*/
+.numeri {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  background-color: red;
+}
+/*fine numeri*/
