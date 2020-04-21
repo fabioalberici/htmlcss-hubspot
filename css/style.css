@@ -8,7 +8,6 @@
 /*inizio regole generali */
 body {
   font-family: 'Montserrat', verdana;
-  font-size: 13px;
   line-height: 1.4;
 }
 .container {
@@ -144,7 +143,7 @@ hr {
   padding-top: 25px;
   top: 150px;
   position: absolute;
-  left: 10%;
+  left: 15%;
 }
 
 .tit-uno {
@@ -154,14 +153,14 @@ hr {
   color: #003380;
   margin-top: 30px;
   position: absolute;
-  left: 10%;
+  left: 15%;
 }
 .testo-titolo li {
   list-style-type: none;
   font-size: 25px;
   padding: 10px;
   margin-top: 30px;
-  left: 0%;
+  left: 5%;
 }
 .testo-titolo li a {
   text-decoration: none;
@@ -172,7 +171,7 @@ hr {
   border: 2px solid #ff8533;
   border-radius: 6px;
   top: 260px;
-  left: 10%;
+  left: 15%;
   color: white;
   position: absolute;
 
@@ -181,7 +180,7 @@ hr {
   font-size: 10px;
   position: absolute;
   top: 360px;
-  left: 10%;
+  left: 15%;
 }
 /*fine titolo */
 /*inizio sottotitolo */
@@ -197,11 +196,12 @@ hr {
 /*inizio integration */
 .corpo-centrale {
   width: 100%;
-  background: #c1f0f0;
+  background: #e6f9ff;
 }
 .integration {
-  width: 90%;
-  background-color: #c1f0f0;
+  width: 80%;
+  margin: auto;
+  background-color: #e6f9ff;
   padding-bottom: 25px;
 }
 .integration img {
@@ -216,12 +216,13 @@ hr {
 }
 .integration p {
   text-align: center;
-
+  font-size: 10px;
 }
 /*fine integration */
 /*inizio crm */
 .crm {
   width: 90%;
+  margin: auto;
   height: 200px;
   background: white;
 }
@@ -234,7 +235,7 @@ hr {
   width: 112px;
   height: 112px;
   margin-top: 2%;
-  margin-left: 30%;
+  margin-left: 43%;
 }
 .crm li a {
   text-decoration: none;
@@ -268,10 +269,10 @@ hr {
   color: #003380;
 }
 .testo-crm hr {
-  width: 65%;
+  width: 55%;
   color: #003380;
-  right: 5%;
-  top: 90px;
+  right: 6%;
+  top: 122px;
   position: absolute;
 }
 .testo-crm li {
@@ -288,9 +289,15 @@ hr {
 }
 /*fine crm */
 /*inizio trecol */
-.trecol {
+.wrapper-col {
   width: 100%;
-  background: #c1f0f0;
+  background-color: #e6f9ff;
+}
+.trecol {
+  width: 90%;
+  background: #e6f9ff;
+  margin: auto;
+  padding-bottom: 30px;
 }
 .trecol hr {
   color: #003380;
@@ -308,10 +315,10 @@ hr {
   text-decoration: none;
   color: #003380;
   padding-left: 10px;
-  font-size: 15px;
+  font-size: 10px;
 }
 .trecol ul {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 8px;
   margin-bottom: 50px;
 }
@@ -323,21 +330,22 @@ hr {
   color: white;
   padding: 20px;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 20%;
   border: 1px solid #ff8533;
   border-radius: 4px;
+  font-size: 16px;
 }
 .more li a {
   text-decoration: none;
   color: white;
+  font-size: 10px;
 }
 .more li {
   list-style-type: none;
 }
 /*inizio marketing */
 .marketing {
-  height: 500px;
-  width: 26%;
+  width: 30%;
   background: white;
   margin-top: 30px;
   float: left;
@@ -357,17 +365,17 @@ hr {
   color: #003380;
   padding: 15px 5px 15px;
   text-align: center;
+  font-size: 11px;
 }
 /*fine marketing */
 /*inizio sales */
 .sales {
-  height: 500px;
-  width: 26%;
+  width: 30%;
   background: white;
   margin-top: 30px;
   float: left;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .sales img {
   height: 90px;
@@ -384,12 +392,12 @@ hr {
   color: #003380;
   text-align: center;
   padding: 15px 5px 15px;
+  font-size: 11px;
 }
 /*fine sales */
 /*inizio service */
 .service {
-  height: 500px;
-  width: 26%;
+  width: 30%;
   float: left;
   background-color: white;
   margin-top: 30px;
@@ -406,18 +414,91 @@ hr {
   padding-top: 10px;
 }
 .service p {
-  font-size: 15px;
+  font-size: 11px;
   padding: 15px 5px 15px;
   color: #003380;
   text-align: center;
+
 }
 /*fine service */
 /*fine trecol */
 /*inizio numeri*/
-.numeri {
+.info-num {
   width: 100%;
   margin: auto;
   height: 400px;
-  background-color: red;
+  background-color: #2eb8b8;
 }
+.numeri {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  color: white;
+  background: #2eb8b8;
+  padding-top: 20px;
+}
+.numeri p {
+  font-size: 8px;
+  text-align: center;
+  padding-top: 13px;
+}
+/*inizio loghi*/
+.logo-num {
+  background: #2eb8b8;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.logo-num h4 {
+  color: white;
+}
+.agency {
+  width: 25%;
+  float: left;
+}
+.spots {
+  width: 25%;
+  float:left;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+
+}
+.academy {
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+}
+.inbound {
+  width: 25%;
+  float: left;
+}
+.connect {
+  width: 25%;
+  float: left;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  padding-top: 7px;
+}
+.globe {
+  width: 25%;
+  float: left;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  padding-top: 7px;
+}
+.followers {
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  padding-top: 7px;
+}
+.small {
+  width: 25%;
+  float: left;
+  border-top: 1px solid white;
+  padding-top: 7px;
+}
+
+/*fine loghi */
 /*fine numeri*/
