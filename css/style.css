@@ -11,10 +11,10 @@ body {
 }
 .container {
   width: 1280px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.clearfix {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -287,7 +287,6 @@ hr {
 /*inizio trecol */
 .trecol {
   width: 100%;
-  height: 800px;
   background: #c1f0f0;
 }
 .trecol hr {
