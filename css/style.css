@@ -194,7 +194,7 @@ hr {
 /*inizio integration */
 .corpo-centrale {
   width: 100%;
-  background: red;
+  background: #c1f0f0;
 }
 .integration {
   width: 90%;
@@ -273,6 +273,7 @@ hr {
 }
 .testo-crm li {
   display: inline-block;
+  padding-top: 15px;
 }
 .testo-crm li a {
   padding-left: 10px;
@@ -283,10 +284,16 @@ hr {
   color: orange;
 }
 /*fine crm */
+/*inizio trecol */
+.trecol {
+  width: 100%;
+  height: 800px;
+  background: #c1f0f0;
+}
 /*inizio marketing */
 .marketing {
   height: 300px;
-  width: 25%;
+  width: 26%;
   background: yellow;
   margin-top: 30px;
   float: left;
@@ -295,18 +302,18 @@ hr {
 /*inizio sales */
 .sales {
   height: 300px;
-  width: 25%;
+  width: 26%;
   background: purple;
   margin-top: 30px;
   float: left;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 /*fine sales */
 /*inizio service */
 .service {
   height: 300px;
-  width: 25%;
+  width: 26%;
   float: left;
   background-color: green;
   margin-top: 30px;
