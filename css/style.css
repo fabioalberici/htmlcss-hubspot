@@ -494,7 +494,7 @@ hr {
 /*inizio info-sponsor*/
 .sponsor {
   width: 100%;
-  height: 500px;
+  height: 450px;
 }
 .sponsor-uno {
   width: 80%;
@@ -653,4 +653,124 @@ hr {
 .cinese img {
   height: 100%;
   width: 100%;
+}
+/*fine info-sponsor*/
+/*inizio footer*/
+footer {
+  width: 100%;
+  height: 500px;
+  background: #003380;
+}
+.menu-f {
+  width: 100%;
+  margin: auto;
+  background: #003380;
+}
+.f-uno {
+  width: 25%;
+  height: 200px;
+  background: #003380;
+  float: left;
+  margin-top: 20px;
+}
+.f-uno h6 {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.f-uno li {
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.f-uno li a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+.f-due {
+  width: 25%;
+  height: 200px;
+  background: #003380;
+  float: left;
+  margin-top: 20px;
+}
+.f-due h6 {
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.f-due li {
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.f-due li a {
+  text-decoration: none;
+  color: #bfbfbf;
+  padding-left: 20px;
+}
+.f-tre {
+  width: 25%;
+  height: 200px;
+  background: #003380;
+  float: left;
+  margin-top: 20px;
+}
+.f-tre h6 {
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.f-tre li {
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.f-tre li a {
+  text-decoration: none;
+  color: #bfbfbf;
+  padding-left: 20px;
+}
+.f-quattro {
+  width: 25%;
+  height: 280px;
+  background: #003380;
+  float: left;
+  margin-top: 20px;
+}
+.f-quattro h6 {
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.f-quattro li {
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.f-quattro li a {
+  text-decoration: none;
+  color: #bfbfbf;
+  padding-left: 20px;
+}
+.f-quattro span {
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  background: #bfbfbf;
+  padding: 10px;
+  font-size: 12px;
+  margin-left: 17px;
+}
+.f-quattro a {
+  text-decoration: none;
+  color: #003380;
+}
+.f-quattro ul {
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+.f-quattro li {
+ display: inline-block;
 }
