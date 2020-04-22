@@ -114,10 +114,15 @@ hr {
 .menu-due {
   float: right;
 }
+.menu-due i {
+  margin-left: 3px;
+  line-height: 1px;
+}
 .menu-due li {
   list-style-type: none;
   display: inline-block;
   margin-top: 18px;
+  margin-left: 3px;
 }
 .menu-due li a {
   text-decoration: none;
@@ -212,7 +217,6 @@ hr {
 .crm {
   width: 90%;
   margin: auto;
-  height: 200px;
   background: white;
 }
 .immagine-crm {
@@ -521,6 +525,10 @@ hr {
   float: left;
   margin-left: 85px;
 }
+.logo-sponsor img {
+  vertical-align: middle;
+  line-height: 2px;
+}
 .atlassian {
   width: 22%;
   height: 27px;
@@ -529,7 +537,6 @@ hr {
 }
 .atlassian img {
   width: 100%;
-  height: 100%;
 }
 .doordash {
   width: 22%;
@@ -541,40 +548,36 @@ hr {
 }
 .doordash img {
   width: 100%;
-  height: 100%;
 }
 .crowd {
   width: 22%;
   height: 27px;
   float: left;
-  margin-left: 3%;
+  margin-left: 2%;
   margin-right: 3%;
   padding-top: 7px;
 }
 .crowd img {
   width: 100%;
-  height: 100%;
 }
 .purple {
   width: 22%;
   height: 27px;
   float: left;
-  padding-top: 7px;
+  padding-top: 3px;
 }
 .purple img {
   width: 100%;
-  height: 100%;
 }
 .subaru {
   width: 22%;
   height: 27px;
   float: left;
-  padding-top: 7px;
+  padding-top: 1px;
   margin-top: 14px;
 }
 .subaru img {
   width: 100%;
-  height: 100%;
 }
 .wistia {
   width: 22%;
@@ -587,31 +590,29 @@ hr {
 }
 .wistia img {
   width: 100%;
-  height: 100%;
 }
 .classpass {
   width: 22%;
   height: 27px;
   float: left;
-  padding-top: 7px;
+  padding-top: 1px;
   margin-top: 14px;
-  margin-left: 3%;
+  margin-left: 2%;
   margin-right: 3%;
 }
 .classpass img {
   width: 100%;
-  height: 100%;
 }
 .ware {
   width: 22%;
   height: 27px;
   float: left;
+  margin-left: 1%;
   padding-top: 7px;
   margin-top: 14px;
 }
 .ware img {
   width: 100%;
-  height: 100%;
 }
 /*fine scrittura sponsor*/
 .today {
