@@ -137,30 +137,29 @@ hr {
   background-size: 1400px;
   position: relative;
 }
-.testo-titolo p {
-
-  color: #003380;
-  padding-top: 25px;
-  top: 150px;
+.testo-titolo {
+  width: 80%;
+  margin: auto;
   position: absolute;
-  left: 15%;
+  color: #003380;
+  margin-top: 50px;
 }
-
-.tit-uno {
-  font-size: 20px;
-  padding-top: 20px;
-  letter-spacing: 1px;
-  color: #003380;
-  margin-top: 30px;
-  position: absolute;
-  left: 15%;
+.testo-titolo h1 {
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.testo.titolo p {
+  font-size: 10px;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 .testo-titolo li {
   list-style-type: none;
   font-size: 25px;
   padding: 10px;
   margin-top: 30px;
-  left: 5%;
+  margin-bottom: 30px;
 }
 .testo-titolo li a {
   text-decoration: none;
@@ -170,17 +169,7 @@ hr {
   padding: 15px 20px;
   border: 2px solid #ff8533;
   border-radius: 6px;
-  top: 260px;
-  left: 15%;
   color: white;
-  position: absolute;
-
-}
-.tools p {
-  font-size: 10px;
-  position: absolute;
-  top: 360px;
-  left: 15%;
 }
 /*fine titolo */
 /*inizio sottotitolo */
@@ -520,10 +509,7 @@ hr {
   float: left;
   margin-left: 20px;
 }
-.countries h3 , p {
-  text-align: center;
-  padding: 10px;
-}
+
 .countries p {
   font-size: 10px;
 }
