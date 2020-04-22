@@ -494,35 +494,36 @@ hr {
 /*inizio info-sponsor*/
 .sponsor {
   width: 100%;
-  background-color: red;
   height: 500px;
 }
 .sponsor-uno {
   width: 80%;
-  background-color: green;
-  height: 200px;
   margin: auto;
+  position: relative;
+  padding-top: 20px;
 }
 .countries {
   width: 20%;
-  background-color: yellow;
   float: left;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .countries p {
   font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.countries h3 {
+  text-align: center;
 }
 .logo-sponsor {
   width: 60%;
-  height: 120px;
-  background-color: pink;
   float: left;
-  margin-left: 100px;
+  margin-left: 85px;
 }
 .atlassian {
   width: 22%;
-  height: 25px;
+  height: 27px;
   float: left;
   padding-top: 5px;
 }
@@ -532,7 +533,7 @@ hr {
 }
 .doordash {
   width: 22%;
-  height: 25px;
+  height: 27px;
   float: left;
   margin-left: 3%;
   margin-right: 3%;
@@ -544,10 +545,112 @@ hr {
 }
 .crowd {
   width: 22%;
-  height: 25px;
+  height: 27px;
   float: left;
   margin-left: 3%;
   margin-right: 3%;
   padding-top: 7px;
-  background-color: yellow;
+}
+.crowd img {
+  width: 100%;
+  height: 100%;
+}
+.purple {
+  width: 22%;
+  height: 27px;
+  float: left;
+  padding-top: 7px;
+}
+.purple img {
+  width: 100%;
+  height: 100%;
+}
+.subaru {
+  width: 22%;
+  height: 27px;
+  float: left;
+  padding-top: 7px;
+  margin-top: 14px;
+}
+.subaru img {
+  width: 100%;
+  height: 100%;
+}
+.wistia {
+  width: 22%;
+  height: 27px;
+  float: left;
+  padding-top: 7px;
+  margin-top: 14px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.wistia img {
+  width: 100%;
+  height: 100%;
+}
+.classpass {
+  width: 22%;
+  height: 27px;
+  float: left;
+  padding-top: 7px;
+  margin-top: 14px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.classpass img {
+  width: 100%;
+  height: 100%;
+}
+.ware {
+  width: 22%;
+  height: 27px;
+  float: left;
+  padding-top: 7px;
+  margin-top: 14px;
+}
+.ware img {
+  width: 100%;
+  height: 100%;
+}
+/*fine scrittura sponsor*/
+.today {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.today h2 {
+  font-size: 20px;
+  color: #003380;
+
+}
+.today p {
+  font-size: 10px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  color: #003380;
+}
+.today span {
+  border: 1px solid #ff8533;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  background: #ff8533;
+  margin-bottom: 20px;
+}
+.today a {
+  text-decoration: none;
+  color: white;
+}
+.cinese {
+  height: 240px;
+  width: 35%;
+  float: right;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+.cinese img {
+  height: 100%;
+  width: 100%;
 }
