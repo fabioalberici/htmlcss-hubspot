@@ -615,6 +615,8 @@ hr {
   width: 100%;
 }
 /*fine scrittura sponsor*/
+/*inizio footer*/
+/*inizio parte bassa footer */
 .today {
   width: 50%;
   position: absolute;
@@ -811,3 +813,5 @@ footer {
   float: right;
   margin-top: 20px;
 }
+/*fine parte bassa footer */
+/*fine footer */
